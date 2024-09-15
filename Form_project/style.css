@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main-container{
+  margin: 2em;
+  padding: 2em;
+  border:1px solid rgb(159, 159, 159);
+  background-color: rgb(196, 240, 219);
+  border-radius: 12px;
+  height: 80vh;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.head{
+  text-align: center;
+  margin-bottom: 2em;
+}
+.form{
+  margin-top: 6em;
+  margin-left: 3em;
+  text-align: center;
+}
+label{
+  font-size: 1.2em;
+  padding: 2px;
+}
+input{
+  font-size: 1em;
+  margin-left: 2em;
+  margin-bottom: 1em;
+  padding: 2px;
+  border: 1px solid rgb(201, 201, 201);
+  width: 15em;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+textarea{
+  border: 1px solid rgb(201, 201, 201);
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btns{
+  margin-top: 2em;
+  margin-left: 1em;
+  padding: 10px;
+  width: 6em;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(0, 154, 103);
+  color: rgb(239, 243, 247);
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btns:hover{
+  background-color: rgb(0, 54, 36);
+}
+.confirm-msg{
+  color: rgb(1, 65, 0);
+  text-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 1.3em;
+}
+.error-msg{
+  color: rgb(255, 38, 27);
+  font-size: 1.3em;
+}
+
+
+@media screen and (max-width: 768px){
+  .main-container{
+    background-color: aqua;
+  }
+}
